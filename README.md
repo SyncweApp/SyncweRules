@@ -48,6 +48,11 @@ cd SyncweRules
 git pull origin main
 ```
 
+## CMS 导入
+
+- `cms/source.json` 已同步仓库源配置。
+- 在 Syncwe 软件内可直接导入该文件使用。
+
 ## 贡献
 
 欢迎提交新的规则文件或改进现有规则！

@@ -3,7 +3,6 @@
     "type": "anime",
     "name": "kimivod",
     "version": "1.0",
-    "author": "qiaobusi",
     "muliSources": true,
     "useWebview": true,
     "useNativePlayer": true,

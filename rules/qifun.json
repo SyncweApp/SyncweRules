@@ -1,0 +1,31 @@
+{
+  "api": "7",
+  "type": "anime",
+  "name": "qifun",
+  "version": "2.1",
+  "muliSources": true,
+  "useWebview": true,
+  "useNativePlayer": true,
+  "usePost": false,
+  "useLegacyParser": false,
+  "adBlocker": false,
+  "userAgent": "",
+  "baseURL": "https://www.qifun.cc/",
+  "searchURL": "https://www.qifun.cc/vodsearch/-------------.html?wd=@keyword",
+  "searchList": "//div[@class='row gutter-20']",
+  "searchName": "//h6[@class='title']",
+  "searchResult": "//a",
+  "chapterRoads": "//div[@id='tagContent']//div",
+  "chapterResult": "//div/a",
+  "referer": "",
+  "antiCrawlerConfig": {
+    "enabled": true,
+    "captchaType": 1,
+    "captchaImage": "//img[@class='mac_verify_img']",
+    "captchaInput": "//input",
+    "captchaButton": "//input[@class='verify_submit submit_btn']",
+    "captchaDetectType": 1,
+    "captchaDetectValue": "",
+    "captchaScript": ""
+  }
+}
